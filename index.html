@@ -6,41 +6,49 @@
     <title>Quando a Terra Acelerou - Bruno Assunção Dias</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta name="description" content="Site oficial do livro 'Quando a Terra Acelerou' de Bruno Assunção Dias. Descubra a sinopse, biografia do autor, e onde comprar.">
+    <meta name="keywords" content="Quando a Terra Acelerou, Bruno Assunção Dias, livro, ficção científica, pós-apocalíptico, autor, UICLAP">
+    <meta name="author" content="Bruno Assunção Dias">
+    <meta property="og:title" content="Quando a Terra Acelerou - Bruno Assunção Dias">
+    <meta property="og:description" content="Descubra um mundo onde a esperança resiste mesmo quando tudo parece ruir.">
+    <meta property="og:image" content="https://seusite.com/capa_livro.jpeg"> <!-- Substituir com o URL real do site -->
+    <meta property="og:url" content="https://seusite.com"> <!-- Substituir com o URL real do site -->
+    <meta property="og:type" content="website">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Navegação Principal">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>Bruno Assunção Dias</h2>
+                <h1><a href="#home">Bruno Assunção Dias</a></h1>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Início</a></li>
-                <li><a href="#sobre-livro" class="nav-link">Sobre o Livro</a></li>
-                <li><a href="#sobre-autor" class="nav-link">Sobre o Autor</a></li>
-                <li><a href="#comprar" class="nav-link">Onde Comprar</a></li>
-                <li><a href="#outras-obras" class="nav-link">Outras Obras</a></li>
-                <li><a href="#contato" class="nav-link">Contato</a></li>
+            <ul class="nav-menu" role="menu">
+                <li role="menuitem"><a href="#home" class="nav-link">Início</a></li>
+                <li role="menuitem"><a href="#sobre-livro" class="nav-link">Sobre o Livro</a></li>
+                <li role="menuitem"><a href="#sobre-autor" class="nav-link">Sobre o Autor</a></li>
+                <li role="menuitem"><a href="#outras-obras" class="nav-link">Outras Obras</a></li>
+                <li role="menuitem"><a href="#comprar" class="nav-link">Onde Comprar</a></li>
+                <li role="menuitem"><a href="#contato" class="nav-link">Contato</a></li>
             </ul>
-            <div class="hamburger">
+            <button class="hamburger" aria-label="Abrir menu de navegação">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section id="home" class="hero" aria-labelledby="hero-title">
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title">Quando a Terra Acelerou</h1>
+                    <h1 id="hero-title" class="hero-title">Quando a Terra Acelerou</h1>
                     <p class="hero-subtitle">Uma jornada pós-apocalíptica de esperança e resiliência</p>
                     <p class="hero-description">Descubra um mundo onde a esperança resiste mesmo quando tudo parece ruir.</p>
                     <div class="hero-buttons">
-                        <a href="#sobre-livro" class="btn btn-primary">Saiba Mais</a>
-                        <a href="#comprar" class="btn btn-secondary">Comprar Agora</a>
+                        <a href="#sobre-livro" class="btn btn-primary" role="button">Saiba Mais</a>
+                        <a href="https://loja.uiclap.com/titulo/ua101753/" target="_blank" class="btn btn-secondary" role="button">Comprar Agora</a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -51,9 +59,9 @@
     </section>
 
     <!-- Sobre o Livro -->
-    <section id="sobre-livro" class="about-book">
+    <section id="sobre-livro" class="about-book" aria-labelledby="about-book-title">
         <div class="container">
-            <h2 class="section-title">Uma Jornada Pós-Apocalíptica de Esperança e Resiliência</h2>
+            <h2 id="about-book-title" class="section-title">Uma Jornada Pós-Apocalíptica de Esperança e Resiliência</h2>
             <div class="book-content">
                 <div class="book-text">
                     <p>Após a Terceira Guerra Mundial, a rotação da Terra foi alterada, mergulhando o planeta em caos: dias encurtaram, noites se prolongaram e o ciclo das estações desapareceu. Em meio a cidades em ruínas e vales esquecidos, Bruno, ex-militar marcado pela solidão e pela perda, sobrevive isolado, guiado pelas lições dos pais e pelo instinto de quem já perdeu tudo.</p>
@@ -71,40 +79,41 @@
     </section>
 
     <!-- Outras Obras Literárias -->
-    <section id="outras-obras" class="other-works">
+    <section id="outras-obras" class="other-works" aria-labelledby="other-works-title">
         <div class="container">
-            <h2 class="section-title">Outras Obras Literárias</h2>
+            <h2 id="other-works-title" class="section-title">Outras Obras Literárias</h2>
             <div class="works-grid">
                 <div class="work-item">
                     <img src="images/as_guardias_do_destino_capa.jpeg" alt="Capa de As Guardiãs do Destino" class="work-cover">
                     <h3>As Guardiãs do Destino</h3>
                     <p>Na vastidão gelada das terras do Norte, onde os ventos sussurram segredos antigos e os deuses espreitam entre as sombras, o destino é tecido com fios de sangue...</p>
-                    <a href="https://loja.uiclap.com/titulo/ua101753/" target="_blank" class="btn btn-secondary">Saiba Mais</a>
+                    <a href="https://loja.uiclap.com/titulo/ua101753/" target="_blank" class="btn btn-secondary" role="button">Saiba Mais</a>
                 </div>
                 <div class="work-item">
                     <img src="images/filhas_do_fio_perdido_capa.jpeg" alt="Capa de Filhas do Fio Perdido" class="work-cover">
                     <h3>Filhas do Fio Perdido</h3>
                     <p>Quando o fio do destino é refeito, as cicatrizes do esquecimento continuam a pulsar sob a pele do mundo. No Norte, onde a aurora boreal ilumina vales marcados por...</p>
-                    <a href="https://loja.uiclap.com/titulo/ua101753/" target="_blank" class="btn btn-secondary">Saiba Mais</a>
+                    <a href="https://loja.uiclap.com/titulo/ua101753/" target="_blank" class="btn btn-secondary" role="button">Saiba Mais</a>
                 </div>
                 <div class="work-item">
                     <img src="images/fala_jovem_capa.jpeg" alt="Capa de Fala, Jovem!" class="work-cover">
                     <h3>Fala, Jovem! Vencendo o medo de falar em público</h3>
                     <p>Descubra como transformar o medo de falar em público em autoconfiança e novas oportunidades!</p>
-                    <a href="https://loja.uiclap.com/titulo/ua101753/" target="_blank" class="btn btn-secondary">Saiba Mais</a>
+                    <a href="https://loja.uiclap.com/titulo/ua101753/" target="_blank" class="btn btn-secondary" role="button">Saiba Mais</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Sobre o Autor -->
-    <section id="sobre-autor" class="about-author">
+    <section id="sobre-autor" class="about-author" aria-labelledby="about-author-title">
         <div class="container">
-            <h2 class="section-title">Conheça Bruno Assunção Dias</h2>
+            <h2 id="about-author-title" class="section-title">Conheça Bruno Assunção Dias</h2>
             <div class="author-content">
                 <div class="author-image">
-                    <div class="author-placeholder">
-                        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="author-placeholder" aria-label="Foto do autor">
+                        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="user-icon-title">
+                            <title id="user-icon-title">Ícone de Usuário</title>
                             <path d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z" fill="#E65100"/>
                             <path d="M12 14C7.58172 14 4 17.5817 4 22H20C20 17.5817 16.4183 14 12 14Z" fill="#E65100"/>
                         </svg>
@@ -122,12 +131,12 @@
     </section>
 
     <!-- Onde Comprar -->
-    <section id="comprar" class="buy-section">
+    <section id="comprar" class="buy-section" aria-labelledby="buy-section-title">
         <div class="container">
-            <h2 class="section-title">Adquira Seu Exemplar</h2>
+            <h2 id="buy-section-title" class="section-title">Adquira Seu Exemplar</h2>
             <p class="buy-description">Garanta já o seu exemplar de "Quando a Terra Acelerou" e mergulhe nesta emocionante aventura pós-apocalíptica!</p>
             <div class="buy-options">
-                <a href="https://loja.uiclap.com/titulo/ua101753/" target="_blank" class="buy-button">
+                <a href="https://loja.uiclap.com/titulo/ua101753/" target="_blank" class="buy-button" role="button">
                     <div class="buy-info">
                         <h3>UICLAP</h3>
                         <p>Loja oficial do autor</p>
@@ -139,13 +148,14 @@
     </section>
 
     <!-- Contato -->
-    <section id="contato" class="contact">
+    <section id="contato" class="contact" aria-labelledby="contact-title">
         <div class="container">
-            <h2 class="section-title">Conecte-se com o Autor</h2>
+            <h2 id="contact-title" class="section-title">Conecte-se com o Autor</h2>
             <p class="contact-description">Siga Bruno Assunção Dias nas redes sociais e fique por dentro das novidades, lançamentos e eventos.</p>
             <div class="social-links">
-                <a href="https://uiclap.bio/badmask_84" target="_blank" class="social-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a href="https://uiclap.bio/badmask_84" target="_blank" class="social-link" role="button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="uiclap-icon-title">
+                        <title id="uiclap-icon-title">Ícone UICLAP Bio</title>
                         <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="currentColor"/>
                         <path d="M12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" fill="currentColor"/>
                     </svg>
@@ -156,7 +166,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="container">
             <p>&copy; 2025 Bruno Assunção Dias. Todos os direitos reservados.</p>
             <p>Site criado para promover o livro "Quando a Terra Acelerou"</p>
