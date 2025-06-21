@@ -47,6 +47,7 @@ site-livro/
 ├── styles.css          # Estilos CSS
 ├── script.js           # JavaScript
 ├── capa_livro.jpeg     # Imagem da capa do livro
+├── images/             # Diretório para imagens de outras obras
 └── README.md           # Este arquivo
 ```
 

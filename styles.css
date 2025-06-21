@@ -498,3 +498,20 @@ section {
 }
 
 
+
+
+.work-cover {
+    max-width: 100%;
+    height: 250px; /* Altura fixa para as capas */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.work-item:hover .work-cover {
+    transform: scale(1.03);
+}
+
+
