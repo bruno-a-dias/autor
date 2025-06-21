@@ -17,10 +17,11 @@ Este é um site promocional moderno e responsivo criado para divulgar o livro "Q
 ## Seções do Site
 
 1. **Hero Section**: Apresentação principal com capa do livro
-2. **Sobre o Livro**: Sinopse detalhada da obra
+2. **Sobre o Livro**: Sinopse detalhada da obra e número de páginas
 3. **Sobre o Autor**: Biografia de Bruno Assunção Dias
-4. **Onde Comprar**: Links para aquisição do livro
-5. **Contato**: Links para redes sociais do autor
+4. **Outras Obras**: Apresentação de outros livros do autor
+5. **Onde Comprar**: Links para aquisição do livro
+6. **Contato**: Links para redes sociais do autor
 
 ## Tecnologias Utilizadas
 
