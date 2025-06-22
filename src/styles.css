@@ -352,6 +352,16 @@ section {
     text-align: center; /* Centralizado para cards */
     line-height: 1.7;
 }
+.author-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    display: block;
+    margin: 0 auto 2rem auto;
+  }
+  
 
 /* Onde Comprar */
 .buy-section {
@@ -684,13 +694,3 @@ section {
     }
 }
 
-.author-photo {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-    display: block;
-    margin: 0 auto 2rem auto;
-  }
-  
