@@ -1,5 +1,7 @@
 # Site Promocional - Quando a Terra Acelerou
 
+[Site](https://bruno-a-dias.github.io/autor/) 👈 Clique aqui!
+
 Site promocional para o livro "Quando a Terra Acelerou" de Bruno Assunção Dias.
 
 ## Sobre o Projeto
